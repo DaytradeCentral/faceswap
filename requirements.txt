@@ -1,7 +1,7 @@
 tqdm
 psutil
 pathlib
-numpy==1.16.2
+numpy==1.22.0
 opencv-python
 scikit-image
 Pillow
@@ -16,7 +16,7 @@ ffmpy==0.2.2
 git+https://github.com/deepfakes/nvidia-ml-py3.git
 #nvidia-ml-py3
 h5py==2.9.0
-Keras==2.2.4
+Keras==3.15.0
 pywin32 ; sys_platform == "win32"
 
 # tensorflow is included within the docker image.
